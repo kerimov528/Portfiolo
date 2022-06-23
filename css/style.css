@@ -27,7 +27,7 @@ img {
 nav,
 footer {
  width: 100%;
- height: 5.75rem;
+ min-height: 5.75rem;
  background-color: #111;
  padding: 0 5%;
 }
@@ -243,12 +243,6 @@ section.section-1 div.row .col .col__bottom p {
  section.section-1 div.row {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(3, minmax(20rem, 25rem));
- }
- .nav__middle {
-  display: none !important;
- }
- .nav__right {
-  display: block !important;
  }
  footer {
   max-height: max-content;
