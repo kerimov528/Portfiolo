@@ -1,0 +1,88 @@
+section#contact__section .row,
+section#contact__section .row .col-12 img {
+ border: none;
+}
+
+section#contact__section .row .col-12 .icons {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-template-rows: repeat(2, 5rem);
+ gap: 1rem;
+}
+section#contact__section .row .col-12 .icons .box {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ font-size: 3rem;
+ padding: 0.2rem;
+}
+section#contact__section .row .col-12 .icons .box i {
+ margin-right: 1rem;
+}
+section#contact__section .row .col-12 .icons .box span {
+ font-size: 1.5rem;
+ text-transform: capitalize;
+}
+section#contact__section .row .col-12 .icons .box#ig {
+ color: #ef0074;
+}
+section#contact__section .row .col-12 .icons .box#lk {
+ color: #0982c0;
+}
+section#contact__section .row .col-12 .icons .box#fb {
+ color: #43609c;
+}
+section#contact__section .row .col-12 .icons .box#tw {
+ color: #189acd;
+}
+
+main.contact__section1 {
+ height: max-content;
+ background-color: #fafafa;
+ padding: 5rem 7rem;
+}
+main.contact__section1 form input,
+textarea {
+ width: 100%;
+ display: block;
+ padding: 0.5rem 1rem;
+ border: none;
+ outline: none;
+ margin-bottom: 1rem;
+ box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+}
+main.contact__section1 form input:focus,
+textarea:focus {
+ border: 0.3rem solid var(--primary);
+ border-radius: 0.3rem;
+}
+main.contact__section1 form .first__row {
+ width: 70%;
+ padding: 0 1rem 1rem 0;
+}
+main.contact__section1 .btn {
+ height: 4rem;
+ position: relative;
+}
+main.contact__section1 button.btn__cv {
+ font-family: 'Rubik', sans-serif;
+ padding: 0.8rem 3rem;
+ font-size: 1rem;
+ font-weight: 500;
+ border: none;
+ outline: none;
+ margin: 2rem 0 0;
+ border-radius: 0.3rem;
+ transition: all 3s;
+ background-color: transparent;
+ color: var(--dark);
+ border: 3px solid var(--dark);
+ position: absolute;
+ right: 50%;
+ bottom: 0;
+}
+
+main.contact__section1 button.btn__cv:hover {
+ background-color: #000;
+ color: var(--tomato);
+}
