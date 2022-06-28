@@ -31,11 +31,14 @@ section#skills__section1 .row .col {
  border: 0.5rem solid #fff;
  box-shadow: 2px 3px 10px #000;
 }
+section#skills__section1 .row .col img {
+ object-fit: cover;
+}
 section#skills__section1 .row .col p {
  margin-top: 2rem;
  text-align: center;
  font-size: 1.5rem;
- letter-spacing: 2px;
+ letter-spacing: -1px;
 }
 
 @media screen and (max-width: 768px) {
