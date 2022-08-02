@@ -12,10 +12,8 @@ img {
  height: 100%;
 }
 
-section .row {
+section .row.firstRow {
  max-width: 65rem;
- padding: 0 0 2rem;
- border-bottom: 2px solid #000;
 }
 
 section .row h1 {
@@ -41,33 +39,34 @@ section .row .col-12 p {
  margin-bottom: 2.4rem;
  line-height: 1.7;
 }
-section .container {
- display: grid;
- grid-template-columns: repeat(6, 1fr);
- grid-template-rows: 10rem;
- gap: 2rem;
- margin-top: 2rem;
-}
-section .container .box {
+section.about__section2 .card {
+ width: 30rem;
+ height: 35rem;
  background-color: antiquewhite;
  border: 0.5rem solid #fff;
  box-shadow: 2px 3px 10px #000;
  border-radius: 0.3rem;
 }
 
-@media screen and (max-width: 768px) {
- section .container {
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 15rem);
- }
- section .row .col {
-  width: 100% !important;
- }
+section.about__section2 {
+  padding: 2rem 4rem;
+  background-color: #fafafa;
+}
+@media screen and (max-width: 768px) {  
+  html {
+    font-size: 12px;
+  }
+  section.about__section2 {
+  padding: 1.5rem 3rem;
+}
 }
 
 @media screen and (max-width: 512px) {
- section .container {
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 15rem);
- }
+  html {
+    font-size: 10px;
+  }
+  section.about__section2 {
+    padding: 1.2rem 2rem;
+  }
+
 }
