@@ -1,174 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link
-   rel="stylesheet"
-   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-   integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-   crossorigin="anonymous"
-   referrerpolicy="no-referrer"
-  />
-  <link
-   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-   rel="stylesheet"
-  />
-  <!-- Bootstrap CSS -->
-  <link
-   href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-   rel="stylesheet"
-   integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-   crossorigin="anonymous"
-  />
-  <link rel="stylesheet" href="./css/style.css" />
-  <title>Home Page</title>
- </head>
- <body>
-  <nav class="navbar navbar-expand-lg">
-   <div class="container-fluid">
-    <div class="nav__left">
-     <img src="./img/logo.png" alt="" />
-    </div>
-    <button
-     class="navbar-toggler text-danger d-flex d-lg-none align-items-center justify-content-center"
-     type="button"
-     data-bs-toggle="collapse"
-     data-bs-target="#navbarTogglerDemo02"
-     aria-controls="navbarTogglerDemo02"
-     aria-expanded="false"
-     aria-label="Toggle navigation"
-    >
-     <i
-      class="navbar-toggler-icon fa-solid fa-bars d-flex d-lg-none align-items-center justify-content-center"
-     ></i>
-    </button>
-    <div class="collapse navbar-collapse nav__middle" id="navbarTogglerDemo02">
-     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-      <li class="nav-item">
-       <a class="nav-link" aria-current="page" href="./Home.html">home</a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="./About.html">about</a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="./Skills.html">skills</a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="./Portfiolo.html">portfiolo</a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="./Contact.html">contact</a>
-      </li>
-      <div class="icons d-none d-lg-flex align-items-center">
-       <a href="https://www.twitter.com"
-        ><i class="fa-brands fa-twitter"></i
-       ></a>
-       <a href="https://www.linkedin.com/feed/"
-        ><i class="fa-brands fa-linkedin-in"></i
-       ></a>
-       <a href="https://www.facebook.com"
-        ><i class="fa-brands fa-facebook-f"></i
-       ></a>
-       <a href="https://www.instagram.com"
-        ><i class="fa-brands fa-instagram"></i
-       ></a>
-      </div>
-     </ul>
-    </div>
-   </div>
-  </nav>
-  <header>
-   <div class="container-fluid h-100">
-    <div class="row">
-     <div class="col-6 firstCol"></div>
-     <div class="col-6 secondCol d-flex">
-      <h1><span>< </span>Coder<span> ></span></h1>
-      <p class="mx-auto">
-       Front end developer who writes clean, elegant and efficient code.
-      </p>
-      <div class="btns">
-       <button class="btn__cv">
-        <a
-         class="w-100 h-100"
-         href="./pdf/My__Cv.pdf"
-         download="Anar_Kerimli_CV.pdf"
-         >Download CV</a
-        >
-       </button>
-       <button class="btn__hire">
-        <a href="#section-1">Let's continue</a>
-       </button>
-      </div>
-     </div>
-    </div>
-   </div>
-  </header>
 
-  <!-- section 1  -->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Home Page</title>
+</head>
 
-  <section class="section-1 d-flex align-items-center" id="section-1">
-   <div class="section__header w-100 d-flex align-items-center">
-    <hr />
-    <h1>Some of my latest work</h1>
-    <hr />
-   </div>
-   <div class="row d-grid">
-    <div class="col">
-     <div class="col__top">
-      <img src="./img/counter.png" alt="" />
-     </div>
-     <div class="col__bottom">
-      <a href="https://ak-counterr.netlify.app">Counter</a>
-      <p>completely responsive</p>
-     </div>
-    </div>
-    <div class="col">
-     <div class="col__top">
-      <img src="./img/color__flipper.png" alt="" />
-     </div>
-     <div class="col__bottom">
-      <a href="https://ak-color-flipperr.netlify.app">Color Flipper</a>
-      <p>completely responsive</p>
-     </div>
-    </div>
-    <div class="col">
-     <div class="col__top">
-      <img src="./img/cosmos.png" alt="" />
-     </div>
-     <div class="col__bottom">
-      <a href="https://template-portfiolo-site.netlify.app">Portfiolo Site</a>
-      <p>completely responsive</p>
-     </div>
-    </div>
-   </div>
-  </section>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="nav__left">
+                <img src="./img/logo.png" alt="" />
+            </div>
+            <button class="navbar-toggler text-danger d-flex d-lg-none align-items-center justify-content-center"
+                type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <i
+                    class="navbar-toggler-icon fa-solid fa-bars d-flex d-lg-none align-items-center justify-content-center"></i>
+            </button>
+            <div class="collapse navbar-collapse nav__middle" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./Home.html">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./About.html">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Skills.html">skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Portfiolo.html">portfiolo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contact.html">contact</a>
+                    </li>
+                    <div class="icons d-none d-lg-flex align-items-center">
+                        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container-fluid h-100">
+            <div class="row">
+                <div class="col-6 firstCol"></div>
+                <div class="col-6 secondCol d-flex">
+                    <h1><span>
+                            < </span>Coder<span> ></span></h1>
+                    <p class="mx-auto">
+                        Front end developer who writes clean, elegant and efficient code.
+                    </p>
+                    <div class="btns">
+                        <button class="btn__cv">
+                            <a class="w-100 h-100" href="./cv/CV.docx" download="Anar_Kerimli_CV.docx">Download CV</a>
+                        </button>
+                        <button class="btn__hire">
+                            <a href="#section-1">Let's continue</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-  <!-- footer  -->
+    <!-- section 1  -->
 
-  <footer class="d-flex align-content-center">
-   <div
-    class="footer__box w-100 d-flex align-items-center justify-content-between"
-   >
-    <div class="footer__left">
-     <p class="mb-0 text-white">© 2022 Anar Kerimli</p>
-    </div>
-    <div class="footer__right d-flex align-items-center justify-content-center">
-     <a href="./Home.html">home</a>
-     <a href="./About.html">about</a>
-     <a href="./Skills.html">skills</a>
-     <a href="./Portfiolo.html">portfiolo</a>
-     <a href="./Contact.html">contact</a>
-    </div>
-   </div>
-  </footer>
-  <script src="./js/index.js"></script>
-  <!-- Bootstrap Bundle with Popper -->
-  <script
-   src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-   integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-   crossorigin="anonymous"
-  ></script>
- </body>
+    <section class="section-1 d-flex align-items-center" id="section-1">
+        <div class="section__header w-100 d-flex align-items-center">
+            <hr />
+            <h1>Some of my latest work</h1>
+            <hr />
+        </div>
+        <div class="row d-grid">
+            <div class="col">
+                <div class="col__top">
+                    <img src="./img/icon3.png" alt="" />
+                </div>
+                <div class="col__bottom">
+                    <a href="https://ak-counterr.netlify.app">Counter</a>
+                    <p>completely responsive</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col__top">
+                    <img src="./img/icon3.png" alt="" />
+                </div>
+                <div class="col__bottom">
+                    <a href="https://ak-color-flipperr.netlify.app">Color Flipper</a>
+                    <p>completely responsive</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col__top">
+                    <img src="./img/icon3.png" alt="" />
+                </div>
+                <div class="col__bottom">
+                    <a href="https://template-portfiolo-site.netlify.app">Portfiolo Site</a>
+                    <p>completely responsive</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+
+    <footer class="d-flex align-content-center">
+        <div class="container-fluid py-3 m-auto">
+            <div class="row">
+                <div class="col-3 text-center">
+                    <p class="mb-0 text-white">© 2022 Anar Kerimli</p>
+                </div>
+                <div class="col-9 text-center">
+                    <a href="./Home.html">home</a>
+                    <a href="./About.html">about</a>
+                    <a href="./Skills.html">skills</a>
+                    <a href="./Portfiolo.html">portfiolo</a>
+                    <a href="./Contact.html">contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
