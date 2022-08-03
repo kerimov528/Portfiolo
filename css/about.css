@@ -68,5 +68,12 @@ section.about__section2 {
   section.about__section2 {
     padding: 1.2rem 2rem;
   }
-
+  section.about__section2 .card {
+    width: 35rem;
+    height: 44rem;
+   }
+   section.about__section2 .card .card-body {
+    height: 5rem;
+    font-size: 1.5rem;
+   }
 }
