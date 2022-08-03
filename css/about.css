@@ -47,6 +47,10 @@ section.about__section2 .card {
  box-shadow: 2px 3px 10px #000;
  border-radius: 0.3rem;
 }
+section.about__section2 .card p {
+  font-style: oblique;
+  font-weight: 900;
+}
 
 section.about__section2 {
   padding: 2rem 4rem;
@@ -70,7 +74,7 @@ section.about__section2 {
   }
   section.about__section2 .card {
     width: 35rem;
-    height: 44rem;
+    height: auto;
    }
    section.about__section2 .card .card-body {
     height: 5rem;
